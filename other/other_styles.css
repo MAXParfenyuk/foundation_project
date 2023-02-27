@@ -1,0 +1,19 @@
+.topic {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content {
+    flex: auto;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.icon {
+    margin: 12px;
+    word-wrap: break-word;
+}

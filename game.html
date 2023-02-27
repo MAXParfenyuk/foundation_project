@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack Online</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul class="navbar_ul">
+			<li class="navbar_ul_li"><a class="nav_ul_li_a" href="./home.html">Home</a></li>
+			<li class="navbar_ul_li"><a class="nav_ul_li_a" href="./account.html">Profile</a></li>
+			<li class="navbar_ul_li"><a class="nav_ul_li_a" href="./bet_history.html">Bets History</a></li>
+		</ul>
+	  </nav>
+	<div class="container">
+		<h1>Blackjack Online</h1>
+		<div class="player">
+			<h2>Player</h2>
+			<div class="cards"></div>
+			<div class="buttons">
+				<button id="hit">Hit</button>
+				<button id="stand">Stand</button>
+			</div>
+		</div>
+		<div class="dealer">
+			<h2>Dealer</h2>
+			<div class="cards"></div>
+		</div>
+		<div class="status">
+			<p id="message"></p>
+			<p id="tokens">Tokens: 1000</p>
+			<div class="bet">
+				<button id="bet100">100</button>
+				<button id="bet200">200</button>
+				<button id="bet500">500</button>
+			</div>
+			<button id="deal">Deal</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
