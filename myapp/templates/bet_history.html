@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Bet History</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul class="navbar_ul">
+        <li class="navbar_ul_li"><a class="nav_ul_li_a" href="./home.html">Home</a></li>
+        <li class="navbar_ul_li"><a class="nav_ul_li_a" href="./account.html">Profile</a></li>
+        <li class="navbar_ul_li"><a class="nav_ul_li_a" href="./bet_history.html">Bets History</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <h1>User Bet History</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Bet Amount</th>
+          <th>Result</th>
+          <th>Token Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/01/2022</td>
+          <td>10 tokens</td>
+          <td>Won</td>
+          <td>20 tokens</td>
+        </tr>
+        <tr>
+          <td>02/01/2022</td>
+          <td>5 tokens</td>
+          <td>Lost</td>
+          <td>15 tokens</td>
+        </tr>
+        <tr>
+          <td>03/01/2022</td>
+          <td>15 tokens</td>
+          <td>Won</td>
+          <td>30 tokens</td>
+        </tr>
+        <!-- More rows with dynamic data here -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Call-to-Action Button -->
+  <div class="cta">
+    <a class="cta" href="./game.html">Place a Bet</a>
+  </div>
+
+</body>
+
+</html>

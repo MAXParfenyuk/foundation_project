@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul class="navbar_ul">
+          <li class="navbar_ul_li"><a class="nav_ul_li_a" href="./home.html">Home</a></li>
+          <li class="navbar_ul_li"><a class="nav_ul_li_a" href="./account.html">Profile</a></li>
+          <li class="navbar_ul_li"><a class="nav_ul_li_a" href="./bet_history.html">Bets History</a></li>
+      </ul>
+    </nav>
+
+    <header class="topic">
+      <h1 class="big_topic">Welcome to the Blackjack Game!</h1>
+      <p>
+        Here you can play the classic game of Blackjack against the computer.
+        Try your luck and see if you can beat the dealer.
+      </p>
+    </header>
+
+    <main class="main">
+      <h2>Game Rules:</h2>
+      <ol>
+        <li>Each player is dealt two cards.</li>
+        <li>Players can choose to "hit" (take another card) or "stand" (keep their current hand).</li>
+        <li>The goal is to get as close to 21 points as possible without going over.</li>
+        <li>Cards 2 through 10 are worth their face value. Face cards (J, Q, K) are worth 10 points. Aces can be worth either 1 or 11 points.</li>
+        <li>If a player's hand exceeds 21 points, they lose the game.</li>
+        <li>If both the player and the dealer have the same hand value, the game is a push and the player's bet is returned.</li>
+        <li>If a player wins, they receive their bet back plus an amount equal to their bet. If the player has a Blackjack (an Ace and a 10-point card), they win 1.5 times their bet.</li>
+      </ol>
+      <a class="play_button" href="./game.html" class="btn">Start Playing</a>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Blackjack Game. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

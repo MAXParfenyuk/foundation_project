@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="./account.html">Home</a></li>
+        <li><a href="#">Game Rules</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Welcome to the Blackjack Game!</h1>
+      <p>
+        Here you can play the classic game of Blackjack against the computer.
+        Try your luck and see if you can beat the dealer.
+      </p>
+    </header>
+
+    <main>
+      <h2>Game Rules:</h2>
+      <ol>
+        <li>Each player is dealt two cards.</li>
+        <li>Players can choose to "hit" (take another card) or "stand" (keep their current hand).</li>
+        <li>The goal is to get as close to 21 points as possible without going over.</li>
+        <li>Cards 2 through 10 are worth their face value. Face cards (J, Q, K) are worth 10 points. Aces can be worth either 1 or 11 points.</li>
+        <li>If a player's hand exceeds 21 points, they lose the game.</li>
+        <li>If both the player and the dealer have the same hand value, the game is a push and the player's bet is returned.</li>
+        <li>If a player wins, they receive their bet back plus an amount equal to their bet. If the player has a Blackjack (an Ace and a 10-point card), they win 1.5 times their bet.</li>
+      </ol>
+      <a href="#" class="btn">Start Playing</a>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Blackjack Game. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

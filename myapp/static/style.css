@@ -1,0 +1,170 @@
+/* Default styles for all screen sizes */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .navbar_ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar_ul_li {
+    margin-right: 1rem;
+  }
+  
+  .nav_ul_li_a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .topic {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .big_topic {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .play_button {
+    background-color: blueviolet;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #222;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  ol {
+    margin-bottom: 1
+  }
+  
+  footer{
+    max-width: 800px;
+    margin: auto;
+  }
+
+
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .account-details {
+    background-color: #eee;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+  }
+
+  .account-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+  }
+
+  .account-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .account-details p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* Mobile Styles Bets History */
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  }
+
+  /* Medium Screen Styles Bets History*/
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    table {
+      font-size: 18px;
+    }
+  }
+
+  /* Large Screen Styles Bets History*/
+  @media screen and (min-width: 1025px) {
+    h1 {
+      font-size: 48px;
+    }
+  
+    table {
+      font-size: 24px;
+    }
+  }
+  
+  .cta {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
